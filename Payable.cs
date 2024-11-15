@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Week11
 {
-    internal class Payable
+    internal interface Payable // 100% abstract
     {
-        public float CalcCost() {
-            return 0;
-        }
+        float CalcCost();
     }
 }
